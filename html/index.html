@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Student Services Helper</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="../js/script.js"></script>
+    </head>
+    
+    <body>
+        <div class="navbar" id="navbarid">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+
+            <div class="right-nav">
+                <a class="login-icon"  href=""><img src="../assets/login-icon.png"></a>
+                <a href="">Blackboard</a>
+                <a href="">Portal</a>
+            </div>
+        </div>
+
+        <section class="intro-tite">
+            <img class="intro-img" src="../assets/landingpagepic.png" alt="students landing page picture">
+            <p class="title-p-intro"> <b>Student Services Helper</b></p>
+        </section>
+
+        <section class="animate-up">
+            <h1 class="center">About</h1>
+            
+            <div class="stu_count">
+                <h2>Number of students benefited</h2>
+                <div id="student-counter"></div>
+            </div>
+
+            <div class="class_count">
+                <h2>Number of classes optimised</h2>
+                <div id="class-counter"></div>
+            </div>
+
+        </section>
+
+        <section class="animate-up">
+            <h1 class="center">Book a Room</h1>
+            <img class="event_room" src="../assets/studying/book_room.png" width="500" height="500">
+            <div class="event_room_desc">
+                <h2>Interested in reserving a classroom for a group or individual study?</h2>
+                <input type="button" onclick="" value="Reserve your spot here!" />
+            </div>
+        </section>
+
+        <section class="animate-up">
+            <h1 class="center">Upcoming Events</h1>
+            <marquee behavior="sliding" direction="left" scrollamount="110" scrolldelay="1000">
+                <a href=""><img src="../assets/events/event1.jpg" width="450" height="400"></a>
+                <a href=""></a><img src="../assets/events/event2.jpg" width="450" height="400"></a>
+                <a href=""></a><img src="../assets/events/event3.jpg" width="450" height="400"></a>
+                <a href=""></a><img src="../assets/events/event4.jpg" width="450" height="400"></a>
+            </marquee>
+        </section>
+
+        <section class="club-member animate-up">
+            <h1 class="center">Are you a club board member?</h1>
+            <img src="../assets/club/club.png" width="300" height="300">
+            <div class="book_room_desc">
+                <h2>Organise your event and let the students know about it!</h2>
+                <input type="button" onclick="" style="position: relative; right: 0%;" value="Post your event here!" />
+            </div>
+        </section>
+
+        <section class="animate-up">
+            <h1 class="center">FAQs</h1>
+            <details>
+                <summary>How do I book a class?</summary>
+                <div>
+               
+                </div>
+            </details>
+
+            <details>
+                <summary>Can I cancel a booking?</summary>
+                <div>
+               
+                </div>
+            </details>
+
+            <details>
+                <summary>What is the limit to the bookings per person?</summary>
+                <div>
+               
+                </div>
+            </details>
+
+            <details>
+                <summary>How can I view the upcoming events?</summary>
+                <div>
+               
+                </div>
+            </details>
+
+        </section>
+
+        <script>
+            // sticking the navbar on scroll
+
+            var navbar = document.getElementById("navbarid");
+            var sticknav = navbar.offsetTop;
+            window.onscroll = function() {sticked()};
+            function sticked() {
+            if (window.pageYOffset >= sticknav) { // when the navbar exceeds viewport
+                navbar.classList.add("sticknav")
+            } else {
+                navbar.classList.remove("sticknav");
+            }
+            }
+        </script>
+        
+    </body>
+
+    <footer>
+        <p>Created by Student Services Helper Team &#169; 2022</p>
+      </footer>
+</html>
