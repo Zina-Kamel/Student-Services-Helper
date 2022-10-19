@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <met charset="uft-8"></met>
+    <title>Organize a session</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<header class="body-style">
+    <center>
+        <h1>Lets organize a study session :)</h1>
+    </center>
+</header>
+
+
+<form id="organize" method="post" action="confirmationForm.html">
+    <center  class="organizeInformation">
+        <body style="background: url(OrganizeEdit.jpg);background-size: cover; background-repeat: no-repeat;">  
+            <form class="organizeInformation" >  
+    
+            
+            <p>What are you planning to do?
+              
+                <input type="radio" name="type" />Study <input type="radio" name="type" />Other<br>
+                
+                <p> Specify the topic <input type="text" class="textBox"></p>  
+               <p> What do you want to do <input type="text" class="textBox"></p>
+                <br>
+        
+            <label >Choose the Building</label>
+            <select name="LAU Buildings" class="options">
+                <option selected> </option>
+                <option>Safadi Hall</option>
+                <option>Nicol Hall</option>
+                <option>Sage Hall</option>
+                <option>AKSOB</option>
+                <option>Gezairi</option>
+            </select>
+            </p>
+
+            <p>
+
+                <label>Available Rooms</label>
+                <select name="Rooms Available" class="options">
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+            <p>Please enter the date
+                
+                <input type="date" id="date" />
+                <span id="date-time"></span>
+            </p>
+
+            <p>Please specify the
+                from: <input type="time" id="timePicker" name="time" /> till: <input type="time" id="timePicker"
+                    name="time" /><br>
+                <h5 class="note">Note: You are allowed to stay for 2 hours per session!</h5>
+            </p>
+
+            <p>Study mode preference:
+            <input type="radio" name="mode" id="mode">Private <input type="radio" name="mode" id="mode" />Public
+        </p>
+            <h5 class="note">Note: You will not be able to modify the mode of study later</h5>
+           <center>
+                <p>
+                    
+                    <a href="confirmationForm.html"><button class="button">Submit</button></a>
+                    <!-- <input type="submit" value="Submit" class="button" /> -->
+        
+                    <input type="reset" value="Reset" class="button"  />
+                </p>
+
+            </center>
+            </form>
+        </form>
+</body>
+
+</html>
