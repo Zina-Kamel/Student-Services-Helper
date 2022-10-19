@@ -1,0 +1,271 @@
+    html,
+    body {
+        min-height: 100%;
+    }
+
+    /* ---------- Navbar ----------*/
+    .navbar {
+        overflow: hidden;
+        background-color: #173042;
+        z-index: 300;
+    }
+
+    .sticky .content {
+        padding-top: 80px;
+    }
+
+    .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: #173042;
+    }
+
+    .navbar a.active {
+        background-color: #236477;
+        color: white;
+    }
+
+    /* ---------- Sections ----------*/
+
+    .right-nav {
+        float: right;
+    }
+
+    section {
+        height: 100vh;
+    }
+
+    .sticknav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+
+    body,
+    div,
+    form,
+    input,
+    select,
+    textarea,
+    label {
+        padding: 0;
+        margin: 0;
+        outline: none;
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #b6cfc7;
+        line-height: 22px;
+    }
+
+    body {
+        background-color: #cfdfda;
+        font-family: sans-serif;
+    }
+
+    h1 {
+        position: absolute;
+        margin: 0;
+        font-size: 40px;
+        color: #fff;
+        z-index: 2;
+        line-height: 83px;
+    }
+
+    .testbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        padding: 20px;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+        border-radius: 6px;
+        background-color: #173042;
+        /* b6cfc7 */
+        box-shadow: 0 0 8px white;
+    }
+
+    /* Photo for the form title */
+    .banner {
+        position: relative;
+        height: 300px;
+
+
+        background-image: url(../Resources/clubboardphoto.jpg);
+
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    input,
+    select,
+    textarea {
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input {
+        width: calc(100% - 10px);
+        padding: 7px;
+        /* was 5 made 7 */
+    }
+
+
+    .item i {
+        right: 1%;
+        top: 30px;
+        z-index: 1;
+    }
+
+
+
+    textarea {
+        width: calc(100% - 12px);
+        padding: 5px;
+    }
+
+    .item:hover p,
+    .item:hover i,
+    .question:hover p,
+    .question label:hover,
+    input:hover::placeholder {
+        color: #b6cfc7;
+    }
+
+    .item input:hover,
+    .item select:hover,
+    .item textarea:hover {
+        border: 1px solid transparent;
+        box-shadow: 0 0 3px 0 #1d976c;
+        color: #b6cfc7;
+    }
+
+    .item {
+        position: relative;
+        margin: 10px 0;
+    }
+
+    .item i {
+        right: 1%;
+        top: 30px;
+        z-index: 1;
+    }
+
+    input[type=radio],
+    input[type=checkbox] {
+        display: none;
+    }
+
+    label.radio {
+        position: relative;
+        display: inline-block;
+        margin: 5px 20px 15px 0;
+        cursor: pointer;
+    }
+
+    .question span {
+        margin-left: 30px;
+    }
+
+    .question-answer label {
+        display: block;
+    }
+
+    label.radio:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+    }
+    /* changing the color of inout areas */
+    input[type="text"], textarea {
+
+        background-color : #474847; 
+      
+      }
+
+      input[type="email"], textarea {
+
+        background-color : #474847; 
+      }
+
+      input[type="time"], textarea {
+
+        background-color : #474847; 
+      }
+
+      /* input[type="type"], textarea {
+
+        background-color : #474847; 
+      
+      } */
+
+    input[type=radio]:checked+label:before,
+    label.radio:hover:before {
+        border: 2px solid #b6cfc7;
+    }
+
+    label.radio:after {
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 5px;
+        width: 8px;
+        height: 4px;
+        border: 3px solid #b6cfc7;
+        border-top: none;
+        border-right: none;
+        transform: rotate(-45deg);
+        opacity: 0;
+    }
+
+    input[type=radio]:checked+label:after {
+        opacity: 1;
+    }
+
+    .btn-block {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    button {
+        width: 175px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #1d976c;
+        font-size: 18px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background:#93f9b9; ;
+    }
