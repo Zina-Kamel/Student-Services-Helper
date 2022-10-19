@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Student Services Helper</title>
+  <meta name="keywords" content="student, HTML, Javascript, helper, services, lau">
+  <meta name="description" content="Upcoming events page">
+  <link rel="stylesheet" href="D:\Fall 2022\CSC443\Project\css\ClubMemberFormcss.css">
+  <!-- JS Script alert when the user submits -->
+
+  <script>
+    function showSubmission() {
+      alert("Your form has been submitted!");
+      window.location.href="SubmittedEvent.html";
+    }
+  </script>
+
+</head>
+
+<body>
+  <div class="navbar" id="navbarid">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+
+    <div class="right-nav">
+      <a class="login-icon" href=""><img src="/home/zena/Desktop/Web/student_services_helper/assets/login-icon.png"></a>
+      <a href="">Blackboard</a>
+      <a href="">Portal</a>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1>Club Board Member Details</h1>
+      </div>
+      <p>Student Information</p>
+      <div class="item">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required />
+      </div>
+      <div class="item">
+        <label for="email">Email Address</label>
+        <input id="email" type="email" name="email" required />
+      </div>
+
+
+      <div class="item">
+        <label for="sid">LAU ID</label>
+        <input id="sid" type="text" name="sid" required />
+      </div>
+
+      <div class="item">
+        <label for="short-desc">Enter a description:</label>
+        <br>
+        <textarea id="freeform" name="short-desc" rows="5" cols="50"></textarea>
+      </div>
+
+
+      <div class="question">
+        <label>Position</label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_1" name="club_position" />
+            <label for="radio_1" class="radio"><span>President</span></label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radio_2" name="club_position" />
+            <label for="radio_2" class="radio"><span>Vice President</span></label>
+          </div>
+
+          <div>
+            <input type="radio" value="none" id="radio_3" name="club_position" />
+            <label for="radio_3" class="radio"><span>Secretary</span></label>
+          </div>
+
+          <div>
+            <input type="radio" value="none" id="radio_4" name="club_position" />
+            <label for="radio_4" class="radio"><span>Treasurer</span></label>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="item">
+        <label for="posterFile">Upload your poster</label><br>
+        <input type="file" id="posterFile" name="posterFile" style="width : 20%; " required>
+      </div>
+
+      <div class="item">
+        <label for="event_date">Enter date of event</label><br>
+        <input id="event_date" type="time" name="event_date" style="width : 20%; " required />
+
+      </div>
+
+      <div class="btn-block">
+        <button type="submit" href="#" onclick="showSubmission()">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

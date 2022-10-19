@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Student Services Helper</title>
+  <meta name="keywords" content="student, HTML, Javascript, helper, services, lau">
+  <meta name="description" content="Upcoming events page">
+  <link rel="stylesheet" href="../css/styles.css" >
+
+  <script>
+    function showSubmission() {
+      alert("Click ok to go to register");
+      window.location.href="SubmittedEvent.html";
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Responsive navbar-->
+  <div class="navbar" id="navbarid">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+
+    <div class="right-nav">
+      <a class="login-icon" href=""><img src="/home/zena/Desktop/Web/student_services_helper/assets/login-icon.png"></a>
+      <a href="">Blackboard</a>
+      <a href="">Portal</a>
+    </div>
+  </div>
+
+
+
+  <!--<h1 ><Strong>Upcoming Events</Strong></h1>-->
+  <br><br>
+  <div class="center">
+    View the Upcoming events
+    
+</div>
+  </h1>
+  <br>
+
+
+  <!-- Trigger the Modal -->
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <!-- <img class="modal-content" id="img1"> -->
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
+  <div class="grid-body">
+
+    <!-- The images -->
+    <img class="img-grid" id="myImg" src="../Resources/10thannualcreativewritingcompetition.jpg" alt="best event join now">
+    <img class="img-grid" id="myImg" src="../Resources/geekexpressrecruitmentpresentation.jpg" alt="learn how to get recruited">
+    <img class="img-grid" id="myImg" src="../Resources/jobsearchstrategies.jpg" alt="Good job search strategies">
+    <img class="img-grid" id="myImg" src="../Resources/welcometocampus.jpg" alt="welcome LAUers">
+    <img class="img-grid" id="myImg" src="../Resources/projectmanagementwwebinar.png" alt="manage projects">
+
+  </div>
+
+  <script type="text/javascript">
+
+    // create references to the modal...
+    var modal = document.getElementById('myModal');
+    // to all images -- note I'm using a class!
+    var images = document.getElementsByClassName('img-grid');
+    // modal image
+    var mImg = document.getElementById("img01");
+    // and the caption in the modal
+    var captionText = document.getElementById("caption");
+
+    // Go through all of the images with our custom class
+    for (var i = 0; i < images.length; i++) {
+      var img = images[i];
+      // and attach our click listener for this image.
+      img.onclick = function (evt) {
+        
+        modal.style.display = "block";
+        mImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+    }
+
+    //click on x to close
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+
+    //clock outside modal to close
+    window.onclick = function(e) {
+      if (e.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+  </script>
+
+
+</body>
+
+</html>
