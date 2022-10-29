@@ -5,7 +5,6 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-   
 }
 
 header{
@@ -17,7 +16,6 @@ header{
     padding: 1px;
 }
 .body-style{
-    
     color: #179042;
     background-color: #cfdfda;
 }
@@ -275,7 +273,7 @@ header{
     margin-left: 190px;
     display: flex;
     align-items: center;
-    text-align: left;
+    text-align: centerd;
 } 
 /* Table */
 .table{
@@ -291,7 +289,7 @@ header{
 	letter-spacing:50%;
     margin: 20px 0;
     text-align: center;
-    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+
 }
 .table td:nth-child(1) {
     background-color: #009879;
@@ -302,3 +300,94 @@ header{
     color:#173042;
 }
 
+.logIn{
+    border-radius: 25px;
+    background-color: #173042;
+    padding: 90px;
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    white-space: nowrap;
+
+    
+}
+.logInStyle{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    text-transform:none;
+    letter-spacing: 2.2px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+   text-align: left;
+    outline: none;
+    
+}
+.logInStyle:active{
+    transform: translateY(-1px);
+}
+.logInStyle:hover{
+    background-color: #173042;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+}
+.acc{
+    border-radius: 70px;
+    height: 80px;
+    padding: 1rem;
+    margin-top: -125px;
+}
+.text1{
+    text-align: center;
+    color: #179042;
+}
+.text{
+    text-align: center;
+    color: #179042;
+    
+   
+
+}
+.text:hover{
+    color: white;
+}
+.createAccount{
+    border-radius: 25px;
+    background-color: #173042;
+    padding: 90px;
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+.SignUpInfo{
+    padding:1rem;
+    margin-bottom: -0.4rem;
+    font-size: 14px;
+    text-transform:none;
+    letter-spacing: 2.2px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.SignUpInfo:active{
+    transform: translateY(-1px);
+}
+.SignUpInfo:hover{
+    background-color: #173042;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+}   
+
+ 
