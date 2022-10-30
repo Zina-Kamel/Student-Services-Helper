@@ -1,34 +1,4 @@
 
-//constructor to create the simulated events
-// function Event(name, event_day, event_month, event_month_day, event_year, event_time, img) {
-//   this.name = name;
-//   this.event_day = event_day;
-//   this.event_month = event_month;
-//   this.event_month_day = event_month_day;
-//   this.event_year = event_year;
-//   this.event_time = event_time;
-//   this.img = img;
-// }
-
-
-//event objects to test out the front-end
-//Note: dates do not match those of photo
-// const event_1 = new Event("10th annual creative writing competition",
-//   "S", "October", 29, 2022, "4:30pm",
-//   "10thannualcreativewritingcompetition.jpg");
-
-// const event_2 = new Event("Welcome to campus",
-//   "M", "November", 1, 2022, "3:30pm",
-//   "welcometocampus.jpg");
-
-// const event_3 = new Event("Geek express recruitment presentation",
-//   "M", "October", 17, 2022, "1:15pm",
-//   "geekexpressrecruitmentpresentation.jpg");
-
-// const event_4 = new Event("Job search strategies",
-//   "T", "October", 11, 2022, "1:00pm",
-//   "jobsearchstrategies.jpg");
-
 
 const date = new Date();
 
@@ -38,11 +8,15 @@ const renderCal = () => {
 
   const monthDays = document.querySelector(".days");
 
+
+    //to be able to display the previous month's days
+    const prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();
+
+
   //this defines the ending date of each month + the previous and next day
   const lastDayOfMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
 
-  //to be able to display the previous month's days
-  const prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();
+
 
   const firstDayAddress = date.getDay();
 
@@ -82,24 +56,24 @@ const renderCal = () => {
 
   //this will display the previous days of the past month if needed on the calendar
   for (let z = firstDayAddress; z > 0; z--) {
-    days += `<div class="prev-date">${prevLastDay - z + 1}</div>`;
+    days += "<div class='prev-date'>"+parseInt(prevLastDay - z + 1) + "</div>";
   }
 
   //prints out the days of the month (1 -> 31 or 30 or 28)
   for (let i = 1; i <= lastDayOfMonth; i++) {
     if (i === new Date().getDate() && date.getMonth() === new Date().getMonth()) {
-      days += `<div class="today">${i}</div>`;
+      days += "<div class='today'> "+ i + "</div>";
     }
 
 
     else {
-      days += `<div>${i}</div>`;
+      days += "<div>"+ i + "</div>";
     }
   }
 
   if (upcomingDays > 0) {
     for (let j = 1; j <= upcomingDays; j++) {
-      days += `<div class="next-date">${j}</div>`;
+      days += "<div class='next-date'>"+ j +"</div>";
       monthDays.innerHTML = days;
     }
   } else {
