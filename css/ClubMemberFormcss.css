@@ -103,7 +103,7 @@
         height: 300px;
 
 
-        background-image: url(../Resources/clubboardphoto.jpg);
+        background-image: url(../assets/event_photos/clubboardphoto.jpg);
 
         background-size: cover;
         display: flex;
@@ -129,9 +129,9 @@
     }
 
     input {
-        width: calc(100% - 10px);
+        width: calc(100% - 20px);
         padding: 7px;
-        /* was 5 made 7 */
+       
     }
 
 
@@ -221,11 +221,7 @@
         background-color : #474847; 
       }
 
-      /* input[type="type"], textarea {
-
-        background-color : #474847; 
-      
-      } */
+  
 
     input[type=radio]:checked+label:before,
     label.radio:hover:before {
