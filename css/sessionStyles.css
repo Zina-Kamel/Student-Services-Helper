@@ -5,25 +5,26 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
+    height: 500px;
 }
 
 header{
     border-radius: 10px;
     height: 90px;
     font-family: sans-serif;
-    color:#173042;
-    background-color: #93F9B9;
+    color:#cfdfda;
+    background-color: #236477;
     padding: 1px;
 }
 .body-style{
-    color: #179042;
+    color: #cfdfda;
     background-color: #cfdfda;
 }
 .join{
     border-radius: 40px;
     background: #173042;
     padding: 100px;
-    width: 200px;
+    width: 180px;
     height: 150px;
     float: left;
     margin-left: 15%;
@@ -35,7 +36,7 @@ header{
     border-radius: 40px;
     background-color: #173042;
     padding: 100px;
-    width: 200px;
+    width: 180px;
     height: 150px;
     float: right;
     margin-right: 15%;
@@ -49,10 +50,10 @@ header{
   background-color: #173042;
   padding: 90px;
   width: 500px;
-  height: 500px;
+  height: 600px;
   margin: 0 auto;
   margin-top: 2%;
-  margin-bottom: -12px;
+  margin-bottom: 20px;
   align-items:flex-end;
   text-align: left;
 }
@@ -248,10 +249,10 @@ header{
 }
 .helpOrganise{
     border-radius: 40px;
-    color: #173042;
-    background-color: #93F9B9;
+    color: #cfdfda;
+    background-color: #236477;
     padding: 50px;
-    width: 300px;
+    width: 280px;
     height: 200px;
     float: right;
     margin-top: 40px;
@@ -263,10 +264,10 @@ header{
 } 
 .helpJoin{
     border-radius: 40px;
-    background-color: #93F9B9;
-    color: #173042;
+    background-color: #236477;
+    color: #cfdfda;
     padding: 50px;
-    width: 300px;
+    width: 280px;
     height: 200px;
     float: left;
     margin-top: 40px;
@@ -278,7 +279,7 @@ header{
 /* Table */
 .table{
     border-collapse: collapse;
-    background-color: #93F9B9;
+    background-color: #cfdfda;
     color: #173042;
     margin: 100px;
     padding: 50px;
@@ -289,15 +290,20 @@ header{
 	letter-spacing:50%;
     margin: 20px 0;
     text-align: center;
+    padding: 5px;
 
 }
 .table td:nth-child(1) {
-    background-color: #009879;
+    background-color: #236477;
     color: #173042;
     text-align: left;
 }
 .text{
     color:#173042;
+}
+
+td{
+    padding-left: 5px;
 }
 
 .logIn{
@@ -345,15 +351,19 @@ header{
 }
 .text1{
     text-align: center;
-    color: #179042;
+    color: #cfdfda;
+    font-size: small;
+    position: relative;
+    top: 5%;
 }
 .text{
     text-align: center;
-    color: #179042;
-    
-   
-
+    color: #cfdfda;
+    font-size: small;
+    position: relative;
+    top: 5%;
 }
+
 .text:hover{
     color: white;
 }
@@ -381,6 +391,25 @@ header{
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
+
+.SignUpButton{
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  top: 5%;
+}
+
 .SignUpInfo:active{
     transform: translateY(-1px);
 }
@@ -389,5 +418,44 @@ header{
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
 }   
+.textarea{
+    border-radius: 10px;
+    height: 130px;
+    width: 400px;
+   margin-left: -45px;
+   
+}
+.textBox2{
+    padding: 0.5em;
+    width: 200px;
+    font-size: 12px;
+    text-transform:none;
+    letter-spacing: 2.2px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
 
- 
+.helptext{
+    text-align: center;
+    color: #cfdfda;
+    font-size: small;
+    position: relative;
+    top: 10%;
+}
+
+.TableHeadCol{
+    color: white;
+}
+
+@media print {
+    .body-style h1{
+        font-size: 20px;
+    }
+ }

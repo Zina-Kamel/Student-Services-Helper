@@ -3,21 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Student Services Helper</title>
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/mainStyles.css">
         <script src="../js/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
     </head>
     
     <body>
         <div class="navbar" id="navbarid">
-            <a class="active" href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a class="active" href="index.html">Home</a>
+            <a href="EventsGridDisplay.html" target=”_blank">Events</a>
+            <a href="Booking.html">Booking</a>
+            <a href="ClubBoardMember.html">Club Members</a>
 
             <div class="right-nav">
-                <a class="login-icon"  href=""><img src="../assets/login-icon.png"></a>
-                <a href="">Blackboard</a>
-                <a href="">Portal</a>
+                <a href="https://elearn.lau.edu.lb/ultra" target=”_blank”>Blackboard</a>
+                <a href="https://myportal.lau.edu.lb/Pages/studentPortal.aspx" target=”_blank”>Portal</a>
+                <a class="login-icon"  href="LoginPage.html"><img src="../assets/login-icon.png"></a>
             </div>
         </div>
 
@@ -53,10 +54,10 @@
         <section class="animate-up">
             <h1 class="center">Upcoming Events</h1>
             <marquee behavior="sliding" direction="left" scrollamount="110" scrolldelay="1000">
-                <a href=""><img src="../assets/events/event1.jpg" width="450" height="400"></a>
-                <a href=""></a><img src="../assets/events/event2.jpg" width="450" height="400"></a>
-                <a href=""></a><img src="../assets/events/event3.jpg" width="450" height="400"></a>
-                <a href=""></a><img src="../assets/events/event4.jpg" width="450" height="400"></a>
+                <a href="EventsGridDisplay.html" target=”_blank"><img src="../assets/events/event1.jpg" width="450" height="400" alt="event1"></a>
+                <a href="EventsGridDisplay.html" target=”_blank"><img src="../assets/events/event2.jpg" width="450" height="400" alt="event2"></a>
+                <a href="EventsGridDisplay.html" target=”_blank"><img src="../assets/events/event3.jpg" width="450" height="400" alt="event3"></a>
+                <a href="EventsGridDisplay.html" target=”_blank"><img src="../assets/events/event4.jpg" width="450" height="400" alt="event4"></a>
             </marquee>
         </section>
 
@@ -65,7 +66,9 @@
             <img src="../assets/club/club.png" width="300" height="300">
             <div class="book_room_desc">
                 <h2>Organise your event and let the students know about it!</h2>
-                <input type="button" onclick="" style="position: relative; right: 0%;" value="Post your event here!" />
+                <a href="EventsCalendar.html">
+                    <input type="button" onclick="" style="position: relative; right: 0%;" value="Post your event here!" />
+                </a>
             </div>
         </section>
 
@@ -73,29 +76,31 @@
             <h1 class="center">FAQs</h1>
             <details>
                 <summary>How do I book a class?</summary>
-                <div>
-               
+                <div class="faqs">
+                    Inorder to book a class, you can go to the <em>"Booking"</em> tab and 
+                    follow the instructions there. You can either book individual or shared study classrooms.
                 </div>
             </details>
 
             <details>
                 <summary>Can I cancel a booking?</summary>
-                <div>
-               
+                <div class="faqs">
+                    Yes, you can cancel a booking by going to your dashboard (top right) and choose the booking you want to cancel
                 </div>
             </details>
 
             <details>
                 <summary>What is the limit to the bookings per person?</summary>
-                <div>
-               
+                <div class="faqs">
+                    Currently, there is no limit to the bookings per person. However, in order to give a chance for as many people 
+                    as possible to use the classrooms, you are only allowed to book a class for more then 2 hours.
                 </div>
             </details>
 
             <details>
                 <summary>How can I view the upcoming events?</summary>
-                <div>
-               
+                <div class="faqs">
+                    You can view all the upcoming events by going to the <em>"Events"</em> tab and browse the available events.
                 </div>
             </details>
 

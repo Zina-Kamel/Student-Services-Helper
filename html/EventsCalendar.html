@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar</title>
-    <link rel="stylesheet" href="../css/calendarcss.css" />
+    <link rel="stylesheet" href="../css/calendarStyles.css" />
+    <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
 
     <!--favicon-->
     <link rel="icon" type="image/x-icon" href="../Resources/icons8-calendar-16.png">
@@ -25,22 +26,22 @@
 <body>
     <!-- Responsive navbar-->
     <div class="navbar" id="navbarid">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="EventsGridDisplay.html" target=”_blank">Events</a>
+        <a href="Booking.html">Booking</a>
+        <a href="ClubBoardMember.html">Club Members</a>
 
         <div class="right-nav">
-            <a class="login-icon" href=""><img
-                    src="/home/zena/Desktop/Web/student_services_helper/assets/login-icon.png"></a>
-            <a href="">Blackboard</a>
-            <a href="">Portal</a>
+            <a href="https://elearn.lau.edu.lb/ultra" target=”_blank”>Blackboard</a>
+            <a href="https://myportal.lau.edu.lb/Pages/studentPortal.aspx" target=”_blank”>Portal</a>
+            <a class="login-icon"  href="LoginPage.html"><img src="../assets/login-icon.png"></a>
         </div>
     </div>
 
     <br>
 
     <div class="center">
+
         Upcoming Events for the Academic Year of 2022
         
     </div>
@@ -49,7 +50,7 @@
         
         <div class="eventsCalendar">
             <div class="month">
-                <p class="tooltip">&#x1F6C8;
+                <p class="tooltip">&#9432;
                     <span class="tooltip-text">Hover over days to  view events that day.
                               <br>Press on the day you want to view.</span>
                 </p>
@@ -74,7 +75,7 @@
     </div>
 
    
-    <script src="CalendarScript.js"></script>
+    <script src="../js/CalendarScript.js"></script>
 </body>
 
 </html>

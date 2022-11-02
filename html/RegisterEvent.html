@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Student Services Helper</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
     <script>
         function showSubmission() {
             alert("Registered Successfully");
@@ -15,40 +16,40 @@
 
 <body>
     <div class="navbar" id="navbarid">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-
+        <a class="active" href="index.html">Home</a>
+        <a href="EventsGridDisplay.html" target="_blank">Events</a>
+        <a href="Booking.html">Booking</a>
+        <a href="ClubBoardMember.html">Club Members</a>
+    
         <div class="right-nav">
-            <a class="login-icon" href=""><img src="../assets/login-icon.png"></a>
-            <a href="">Blackboard</a>
-            <a href="">Portal</a>
+            <a class="login-icon"  href=""><img src="../assets/login-icon.png"></a>
+            <a href="https://elearn.lau.edu.lb/ultra" target=”_blank”>Blackboard</a>
+            <a href="https://myportal.lau.edu.lb/Pages/studentPortal.aspx" target=”_blank”>Portal</a>
         </div>
-    </div>
+      </div>
     <br>
     <div class="center">
-        Register Details
+        Registration Details
     </div>
 
     <p class="title-p-intro" style = "text-align: center" >
-        So you want to join an event!
+        Are you sure you want to register for the below event?
     </p>
     <div style="display: flex; align-items: center;justify-content: center;">
-        <img width="350px" height="350px" src="../assets/event_photos/10thannualcreativewritingcompetition.jpg"></img>
+        <img width="350px" height="350px" src="../assets/event-photos/10thannualcreativewritingcompetition.jpg"></img>
 
 
-        <p style="width: 300px; height : 300px; text-align: center;margin:10px; padding: 10px; background-color:#173042; color: white;
-     border-color: #1d976c; border-style: solid 2px; border-radius:15px;"> Name: 10th annual creative writing
-            competition <br>
-            Date: Friday October 27, 2022 <br>
-            Description: Compete with writers!
+        <p style="text-align: center;margin:10px; padding: 20px; background-color:#173042; color: white;
+     border-color: #1d976c; border-style: solid 2px; border-radius:15px; position: relative; top: 30%;"> <strong>Name:</strong> 10th annual creative writing
+            competition <br><br>
+            <strong>Date:</strong> Friday October 27, 2022 <br><br>
+            <strong>Description:</strong> Compete with writers!
         </p>
 
     </div>
     
     <div class="btn-block">
-        <button type="submit" href="#" onclick="showSubmission()">SUBMIT</button>
+        <button type="submit" href="#" onclick="showSubmission()" style="margin-bottom: 20px;">SUBMIT</button>
     </div>
 
 </body>

@@ -275,6 +275,14 @@ details[open] div{
     padding: .6em 1em;
 }
 
+.main-content summary{
+    font-size: 15px;
+}
+
+.faqs{
+    font-size: 19px;
+}
+
 /* ---------- Animation ----------*/
 
 
@@ -289,4 +297,5 @@ details[open] div{
   transform: translateY(0);
   opacity: 1;
 }
+
 

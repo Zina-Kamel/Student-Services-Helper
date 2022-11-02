@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/adminStyles.css">
+    <script src="../js/AdminScript.js"></script>
+    <!-- <script src="../js/script.js"></script> -->
+</head>
+
+<body>
+
+    <br>
+
+    <div class="center">
+        Admin Dashboard
+    </div>
+
+    <div class="main-div">
+
+        <div class="left-div">
+            <form action="#" name="eventForm" id="eventForm">
+
+
+                <!-- add events -->
+                <div class="rectangle" style="height: 12em; ">
+                    <div style="border-radius:15px;">
+                        <p class="p-text">Quick Add an Event</p>
+                    </div>
+                    <input type="text" name="name" id="add_name" placeholder="Name: " autofocus required><br>
+                    <input type="date" name="date" id="add_date" placeholder="Date: " autofocus required><br>
+                    <input type="time" name="time" id="add_time" placeholder="Date: " autofocus required><br> 
+                    <input type="text" name="org" id="add_org" placeholder="Organizers: " autofocus required><br> 
+
+                    <!-- <input type="submit" value="Submit" id="addnew" OnClick="createEvent()"> -->
+                    <input type="submit" id="addnew">
+
+                </div>
+            </form>
+
+
+
+            <!-- list events -->
+            <div class="rectangle" style="height: 20em; ">
+                <div class="div-list">
+                    <p class="p-text">Current Events</p>
+
+                    <p style="color:white;" id="list_events" class="p-list"> 
+                    
+                    </p>
+                </div>
+            </div>
+
+
+            
+
+            <div id="chartDrawingClass" style="height: 20em; width: 14pem; "></div>
+
+            <!--used this to draw the bargraph-->
+            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+        </div>
+
+        <div class="right-div">
+
+            <!-- delete events -->
+
+            <div class="rectangle" style="height: 12em;">
+                <form action="#" name="eventForm2" id="eventForm2">
+                    <p class="p-text">Delete An Event</p>
+                    <br>
+                    <input type="text" name="name" id="delete_name" placeholder="Name: " autofocus required>
+
+                    <input type="submit" class="deleteBtn" value="Delete Event" id="deletevent">
+                </form>
+            </div>
+
+                        <!-- list bookings -->
+                        <div class="rectangle" style="height: 20em; ">
+                            <div class="div-list">
+                                <p class="p-text">Current Class Bookings</p>
+                                <p style="color:white;" id="list_bookings" class="p-list"> 
+                                    <ul style="color:white;">
+                                        <li>AKSOB 1001
+                                            <ul>
+                                                <li><strong>Date: </strong>October 31</li>
+                                                <li><strong>Time: </strong>10 am - 11 am</li>
+                                                <li><strong>User ID: </strong>20213341</li>
+                                            </ul>
+                                        </li>
+                                        <p>-------------------------------------------------</p>
+                                    </ul>
+            
+                                    <ul style="color:white;">
+                                        <li>AKSOB 1101
+                                            <ul>
+                                                <li><strong>Date: </strong>November 1</li>
+                                                <li><strong>Time: </strong>12 pm - 1 pm</li>
+                                                <li><strong>User ID: </strong>20223541</li>
+                                            </ul>
+                                        </li>
+                                        <p>-------------------------------------------------</p>
+                                    </ul>
+            
+                                    <ul style="color:white;">
+                                        <li>AKSOB 1009
+                                            <ul>
+                                                <li><strong>Date: </strong>November 2</li>
+                                                <li><strong>Time: </strong>12 pm - 2 pm</li>
+                                                <li><strong>User ID: </strong>20213341</li>
+                                            </ul>
+                                        </li>
+                                        <p>-------------------------------------------------</p>
+                                    </ul>
+            
+                                    <ul style="color:white;">
+                                        <li>Nicol Hall 502
+                                            <ul>
+                                                <li><strong>Date: </strong>November 2</li>
+                                                <li><strong>Time: </strong>12 pm - 1 pm</li>
+                                                <li><strong>User ID: </strong>20213341</li>
+                                            </ul>
+                                        </li>
+                                        <p>-------------------------------------------------</p>
+                                    </ul>
+            
+                                    <ul style="color:white;">
+                                        <li>Nicol Hall 504
+                                            <ul>
+                                                <li><strong>Date: </strong>November 3</li>
+                                                <li><strong>Time: </strong>12 pm - 1 pm</li>
+                                                <li><strong>User ID: </strong>20213341</li>
+                                            </ul>
+                                        </li>
+                                        <p>-------------------------------------------------</p>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+
+
+
+            <div id="chartDrawing" style="height: 20em; width: 14pem; "></div>
+
+            <!--used this to draw the bargraph-->
+            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+        </div>
+    </div>
+    <!-- <ul id="functions">
+
+    </ul> -->
+
+    <!-- <div id = "functions">
+
+    </div> -->
+</body>
+
+
+</html>

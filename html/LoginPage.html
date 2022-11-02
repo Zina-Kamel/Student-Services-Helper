@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <met charset="uft-8"></met>
+    <Title>Log in</Title>
+    <link rel="stylesheet" href="../css/sessionStyles.css">
+    <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
+    
+</head>
+
+<!--Login Page-->
+
+<body class="body-style">
+
+    <div style="position: relative; top: 4%; color: #173042;"><strong>Welcome to Student Services Helper! Please login to continue using the services</strong></div>
+
+    <form class="logIn" style="position: relative; top: 8%;" action="Profile.html" method="POST">
+        <img src="../assets/Services/account.png" class="acc">
+
+        <div>
+            <label id="email-label"></label>
+            <input type="email" spellcheck="false" id="email-field" class="logInStyle" placeholder="Email">
+            <span id="email-error"></span>
+
+        </div>
+
+        <div>
+            <label id="email-label"></label>
+            <input type="password" spellcheck="false" id="password-field" class="logInStyle" placeholder="Password">
+            <span id="email-error"></span>
+
+        </div>
+
+        <script src="../js/emailChecker.js"> </script>
+      
+       <button class="button">LogIn</button>
+
+        <p class="text1">Don't have an account?
+        <br>
+        <a class="text" href="CreateAccount.html">Create One!</a> </p>
+
+    
+    </form>
+    
+</body>
+
+</html>

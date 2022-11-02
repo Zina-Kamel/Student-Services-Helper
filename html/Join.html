@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Join a session</title>
+      <meta name="keywords" content="student, HTML, Javascript, helper, services, lau">
+      <meta name="description" content="Upcoming events page">
+      <link rel="stylesheet" href="../css/indexStyles.css" >
+      <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
+      <script>
+         function showSubmission() {
+           alert("Click ok to go to register");
+           window.location.href="SubmittedEvent.html";
+         }
+      </script>
+   </head>
+   <body>
+      <!-- Responsive navbar-->
+      <div class="navbar" id="navbarid">
+         <a class="active" href="index.html">Home</a>
+         <a href="EventsGridDisplay.html" target=”_blank">Events</a>
+         <a href="Booking.html">Booking</a>
+         <a href="ClubBoardMember.html">Club Members</a>
+         <div class="right-nav">
+            <a class="login-icon"  href=""><img src="../assets/login-icon.png"></a>
+            <a href="https://elearn.lau.edu.lb/ultra" target=”_blank”>Blackboard</a>
+            <a href="https://myportal.lau.edu.lb/Pages/studentPortal.aspx" target=”_blank”>Portal</a>
+         </div>
+      </div>
+      <form id="join" method = "post" action = "JoinConfirmation.html" >
+         <br><br>
+         <div class="center">
+            Available Sessions
+         </div>
+         <br>
+         <!-- Trigger the Modal -->
+         <!-- The Modal -->
+         <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+         </div>
+         <!-- The Modal -->
+         <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+            <!-- Modal Content (The Image) -->
+            <!-- <img class="modal-content" id="img1"> -->
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+         </div>
+         <div class="grid-body">
+            <!-- The images -->
+            <p class="img-gridJoin" ><strong style="color:#bbb">Topic: </strong><em>Web Development</em> 
+               <br><br>
+               <strong style="color:#bbb">Building: </strong> <em>AKSOB</em> <br>
+               <strong style="color:#bbb">Room: </strong> 903
+               <br>
+               <strong style="color:#bbb">Hours: </strong>2:00 - 4:00 PM
+               <input type="submit" value="Join" class="joinbutton">
+            </p>
+            <p class="img-gridJoin" ><strong style="color:#bbb">Topic: </strong><em>Web Development</em> 
+               <br><br>
+               <strong style="color:#bbb">Building: </strong> <em>AKSOB</em> <br>
+               <strong style="color:#bbb">Room: </strong> 903
+               <br>
+               <strong style="color:#bbb">Hours: </strong>2:00 - 4:00 PM
+               <input type="submit" value="Join" class="joinbutton">
+            </p>
+            <p class="img-gridJoin" ><strong style="color:#bbb">Topic: </strong><em>Web Development</em> 
+               <br><br>
+               <strong style="color:#bbb">Building :</strong> <em>AKSOB</em> <br>
+               <strong style="color:#bbb">Room: </strong> 903
+               <br>
+               <strong style="color:#bbb">Hours: </strong>2:00 - 4:00 PM
+               <input type="submit" value="Join" class="joinbutton">
+            </p>
+            <p class="img-gridJoin" ><strong style="color:#bbb">Topic: </strong><em>Web Development</em> 
+               <br><br>
+               <strong style="color:#bbb">Building: </strong> <em>AKSOB</em> <br>
+               <strong style="color:#bbb">Room: </strong> 903
+               <br>
+               <strong style="color:#bbb">Hours: </strong>2:00 - 4:00 PM
+               <input type="submit" value="Join" class="joinbutton">
+            </p>
+            <p class="img-gridJoin" ><strong style="color:#bbb">Topic: </strong><em>Web Development</em> 
+               <br><br>
+               <strong style="color:#bbb">Building: </strong> <em>AKSOB</em> <br>
+               <strong style="color:#bbb">Room: </strong> 903
+               <br>
+               <strong style="color:#bbb">Hours: </strong>2:00 - 4:00 PM
+               <input type="submit" value="Join" class="joinbutton">
+            </p>
+            <p class="img-gridJoin" ><strong style="color:#bbb">Topic: </strong><em>Web Development</em> 
+               <br><br>
+               <strong style="color:#bbb">Building: </strong> <em>AKSOB</em> <br>
+               <strong style="color:#bbb">Room: </strong> 903
+               <br>
+               <strong style="color:#bbb">Hours: </strong>2:00 - 4:00 PM
+               <input type="submit" value="Join" class="joinbutton">
+            </p>
+            <div class="OrganizeYours" >
+               <p >
+        <strong>Didn't find what you are looking for? Organize your own study session! </strong><br>
+        <a href="CreateSession.html"><input class="button" value="Organize Session"></input></a>
+      </p>
+      </div>
+      </div>
+    </form>
+      <script type="text/javascript">
+         // create references to the modal...
+         var modal = document.getElementById('myModal');
+         // to all images -- note I'm using a class!
+         var images = document.getElementsByClassName('img-grid');
+         // modal image
+         var mImg = document.getElementById("img01");
+         // and the caption in the modal
+         var captionText = document.getElementById("caption");
+         
+         // Go through all of the images with our custom class
+         for (var i = 0; i < images.length; i++) {
+           var img = images[i];
+           // and attach our click listener for this image.
+           img.onclick = function (evt) {
+             
+             modal.style.display = "block";
+             mImg.src = this.src;
+             captionText.innerHTML = this.alt;
+           }
+         }
+         
+         //click on x to close
+         var span = document.getElementsByClassName("close")[0];
+         
+         span.onclick = function () {
+           modal.style.display = "none";
+         }
+         
+         
+         //click outside modal to close
+         window.onclick = function(e) {
+           if (e.target == modal) {
+             modal.style.display = "none";
+           }
+         }
+         
+      </script>
+   </body>
+</html>

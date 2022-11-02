@@ -18,9 +18,13 @@ body {
     background: #173042;
     margin: 10px;
 
+
 }
 .p-list{
-    overflow: scroll;
+    overflow: hiden;
+    height: 1%;
+    padding: 5x;
+    margin: 5px;
 }
 
 .p-text {
@@ -32,6 +36,7 @@ body {
     border-top-right-radius: 15px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 input[type="text"],
@@ -69,7 +74,7 @@ button {
 button:hover {
     background: #93f9b9;
     cursor: pointer;
-    ;
+    
 }
 
 /* adminside specific css done */
@@ -235,7 +240,7 @@ section {
     animation-duration: 0.6s;
 }
 
-/* Add Animation - Zoom in the Modal */
+/* The zooming in functionality */
 .modal-content,
 #caption {
     -webkit-animation-name: zoomin;
@@ -244,6 +249,7 @@ section {
     animation-duration: 0.5s;
 }
 
+/* transforming the image for zoom effect */
 @-webkit-keyframes zoomin {
     from {
         -webkit-transform: scale(0)
@@ -437,4 +443,101 @@ The pseudo-element then enlarges to encompass the entire object during hover.*/
 .stu_count div,
 .class_count div {
     font-size: 80px;
+}
+
+/* adminside css*/
+
+/* functionalities boxes */
+.rectangle {
+    width: 20em;
+    border-radius: 15px;
+    height: 10em;
+    background: #173042;
+    margin: 10px;
+    overflow: auto;
+
+
+}
+.p-list{
+    /* overflow: hidden;
+    height: 1%; */
+    padding: 5x;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+/* to center the admin functions */
+.main-div{
+    width:60%; 
+    margin:0 auto;
+}
+
+/* left side of the dashboard */
+.left-div{
+    padding: 10px; 
+    float: left;
+    margin:10px;
+}
+
+/* right side of the dashboard */
+.right-div{
+    padding: 10px; 
+    float: right;
+    margin:10px;
+}
+
+.p-text {
+    color: white;
+    font-size: 15px;
+    padding: 0.5em;
+    background-color: #1d976c;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+input[type="text"],
+textarea {
+
+    background-color: #474847;
+    padding: 2px;
+    color: white;
+
+}
+
+input[type="time"],input[type="date"], textarea {
+
+    background-color : #474847; 
+    color: white;
+  }
+
+input,
+textarea {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    width: 175px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1d976c;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #93f9b9;
+    cursor: pointer;
+    
 }

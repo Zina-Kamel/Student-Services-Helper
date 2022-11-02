@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Student Services Helper</title>
+        <link rel="stylesheet" href="../css/indexStyles.css" >
+        <link rel="stylesheet" href="../css/profileStyles.css">
+        <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
+        <script src="../js/Profile.js"></script>
+    </head>
+    
+    <body>
+        <div class="sidebar">
+          <img src="../logos/logo_transparent.png">
+          <a href="Profile.html">Classes Booked</a>
+          <a class="active" href="EventsProfile.html">Events</a>
+          <a href="History.html">History</a>
+          <a href="ContactUs.html">Help</a>
+          <a href="index.html">Main Page</a>
+          <a href="LoginPage.html">Sign Out</a>
+        </div>
+
+        <div class="main-content" style="margin-left: 370px;">
+            <p class="summarytitle">
+                <h2 style="color: #173042;">Here is a summary of your upcoming registered events:</h2>
+
+                  <!-- Trigger the Modal -->
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <div class="eventModal">
+        <h1>Writing Competition</h1>
+        <p><strong>Name of Organisers: </strong>English Club</p>
+        <p><strong>Description:</strong> This event will upskill you and introduce you to the various type of writing strategies</p>
+        <p><strong>Date and Time:
+        </strong> October 31 at 5pm</p>
+        <p><strong>Location:</strong> NH501</p>
+    </div>
+
+
+  </div>
+
+  <div class="eventsbody">
+
+    <!-- The images -->
+    <img class="img-grid" id="myImg" src="../assets/event-photos/10thannualcreativewritingcompetition.jpg" alt="Annual Creative Writing Competition">
+    <img class="img-grid" id="myImg" src="../assets/event-photos/geekexpressrecruitmentpresentation.jpg" alt="learn how to get recruited">
+    <img class="img-grid" id="myImg" src="../assets/event-photos/jobsearchstrategies.jpg" alt="Good job search strategies">
+    <img class="img-grid" id="myImg" src="../assets/event-photos/welcometocampus.jpg" alt="welcome LAUers">
+    <img class="img-grid" id="myImg" src="../assets/event-photos/projectmanagementwwebinar.png" alt="manage projects">
+  </div>
+
+  <a href="EventsGridDisplay.html" style="margin-left: 250px; margin-top: 90px;">Browse all events?</a>
+
+  <script type="text/javascript">
+
+    // create references to the modal...
+    var modal = document.getElementById('myModal');
+    // to all images 
+    var images = document.getElementsByClassName('img-grid');
+    // modal image
+    var mImg = document.getElementById("img01");
+
+    // Go through all of the images 
+    for (var i = 0; i < images.length; i++) {
+      var img = images[i];
+      // and attach our click listener for this image.
+      img.onclick = function (evt) {
+        
+        modal.style.display = "block";
+        mImg.src = this.src;
+      }
+    }
+
+    //click on x to close
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+
+    //clock outside modal to close
+    window.onclick = function(e) {
+      if (e.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+  </script>
+
+        </p>
+      </div>
+    </body>
+</html>

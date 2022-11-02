@@ -22,8 +22,11 @@ let stu_count=setInterval(student_increment_count);
 let maximum=0;
 function student_increment_count(){
     var counts_students= document.getElementById("student-counter");
-    counts_students.innerHTML=++maximum;
-    if(maximum===1000)
+    if(counts_students!=null){
+      counts_students.innerHTML=++maximum;
+    }
+    
+    if(maximum===1200)
     {
         clearInterval(stu_count);
     }
@@ -33,9 +36,43 @@ let classrooms_count=setInterval(class_increment_count);
 let maximum_class=0;
 function class_increment_count(){
     var counts_class= document.getElementById("class-counter");
-    counts_class.innerHTML=++maximum_class;
-    if(maximum_class===1000)
+    if(counts_class!=null){
+      counts_class.innerHTML=++maximum_class;
+    }
+    
+    if(maximum_class===1235)
     {
         clearInterval(classrooms_count);
     }
+}
+
+let class_shared_count=setInterval(shared_increment_count);
+let maximum_class_shared=0;
+function shared_increment_count(){
+    var counts_shared_class= document.getElementById("class-shared-counter");
+    if(counts_shared_class!=null){
+      counts_shared_class.innerHTML=++maximum_class_shared;
+    }
+    if(maximum_class_shared===1500)
+    {
+        clearInterval(class_shared_count);
+    }
+}
+
+// Contact Us form Submission
+
+window.addEventListener("load", start, false);
+
+function start(){
+  var submitButton = document.getElementById("submitButton");
+  if(submitButton!=null){
+    submitButton.addEventListener("click", submit);
+  }
+}
+
+function submit(){
+    if(confirm("Thank you for contacting us! We will get back to you as soon as possible")){
+      location.href="../html/Profile.html";
+    }
+
 }

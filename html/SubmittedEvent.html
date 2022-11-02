@@ -4,31 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/indexStyles.css" />
+    <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
 
-    <script>
-        function showSubmission() {
-          alert("Your form has been submitted!");
-          window.location.href="SubmittedEvent.html";
-        }
-      </script>
-
-   
+    <!--will be used to import the 2 buttons for the months on the calendar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    
+    
+    
 </head>
 
 <body>
     <!-- Responsive navbar-->
     <div class="navbar" id="navbarid">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="EventsGridDisplay.html" target=”_blank">Events</a>
+        <a href="Booking.html">Booking</a>
+        <a href="ClubBoardMember.html">Club Members</a>
 
         <div class="right-nav">
-            <a class="login-icon" href=""><img
-                    src="../assets/login-icon.png"></a>
-            <a href="">Blackboard</a>
-            <a href="">Portal</a>
+            <a href="https://elearn.lau.edu.lb/ultra" target=”_blank”>Blackboard</a>
+            <a href="https://myportal.lau.edu.lb/Pages/studentPortal.aspx" target=”_blank”>Portal</a>
+            <a class="login-icon"  href="LoginPage.html"><img src="../assets/login-icon.png"></a>
         </div>
     </div>
 
@@ -37,15 +34,74 @@
     <div class = "center">
         Submission Status
     </div>
-    <p class = "title-p-intro">
-        Congratulations! You have successfully submitted your form!
+    <p class = "eventConfirm">
+        Congratulations! You have successfully submitted your event! 
+    </p>
+    
+    <p class = "eventConfirm">
+        We will review your request and get back to you as soon as possible.
     </p>
 
-    <div>
-        <img class = "center-image" src = "../assets/happyarabsjump.png">
-    </div>
+    <!--Adding confetti Animation-->
 
-   
+    <div class="confetti-box">
+        <div class="confetti">
+          <i style="--speed: 15; --bg: yellow" class="square"></i>
+          <i style="--speed: 13; --bg: white" class="pentagram"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 27; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 36; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 13; --bg: white" class="pentagram"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 27; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 15; --bg: yellow" class="square"></i>
+          <i style="--speed: 13; --bg: white" class="pentagram"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 27; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 36; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 15; --bg: yellow" class="square"></i>
+          <i style="--speed: 36; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 15; --bg: yellow" class="square"></i>
+          <i style="--speed: 13; --bg: white" class="pentagram"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 27; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 36; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 13; --bg: white" class="pentagram"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 27; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 36; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 15; --bg: yellow" class="square"></i>
+          <i style="--speed: 13; --bg: white" class="pentagram"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 27; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 36; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 14; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 15; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 15; --bg: yellow" class="square"></i>
+        </div>
+      </div>
 
 </body>
 </hmtl>
