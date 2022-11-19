@@ -1,9 +1,9 @@
 body {
     background-color: #cfdfda;
     font-family: sans-serif;
-    margin:0;
+    margin: 0;
     padding: 0;
-    height: 100vh;
+
 }
 
 
@@ -52,6 +52,7 @@ title{
   overflow: hidden;
   background-color: #173042;
   z-index:300;
+  font-family: sans-serif;
 }
 
 .sticky .content {
@@ -70,6 +71,7 @@ title{
 .navbar a:hover {
   background-color: #ddd;
   color: #173042;
+  
 }
 
 .navbar a.active {
@@ -306,15 +308,23 @@ section{
 }
 
 .img-grid{
-    width:300px;
+    width:310px;
     height: 300px;
-    object-fit: cover;
+    object-fit: fit;
     object-position: center;
     padding: 10px;
-    /* overflow: hidden; */
-    
+    /* overflow: hidden; */    
     border-radius:10px;
+    transition: .6s ease;
+    position: relative;
 }
+.img-grid:hover{
+  
+    background-color: rgb(14, 109, 65);
+}
+
+
+
 
 
 /* button design when the user wants to register or view more about the events displayed in grid form */
@@ -667,3 +677,5 @@ padding: 1.2em 3em;
        color: #fff;
        transform: translateY(-7px);
    }
+   
+   

@@ -129,6 +129,7 @@ title {
     overflow: hidden;
     background-color: #173042;
     z-index: 300;
+    font-size: 17px;
 }
 
 .sticky .content {
@@ -367,9 +368,9 @@ section {
 .img-grid {
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
-    padding: 10px;
+    padding: 0px;
     /* overflow: hidden; */
 
     border-radius: 10px;
