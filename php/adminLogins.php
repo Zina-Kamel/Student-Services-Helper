@@ -18,6 +18,10 @@ $admin_logins = [
         'Email_Address' => 'mageda.algorithm@lau.edu',
         'Password' => 'Tracecode5@',
     ],
+    [
+        'Email_Address' => 'roula.ghaleb@lau.edu',
+        'Password' => 'Password999!',
+    ],
 ];
 
 $insertManyResult = $admins_login_collection->insertMany($admin_logins);
