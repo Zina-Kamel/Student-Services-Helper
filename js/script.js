@@ -61,18 +61,18 @@ function class_increment_count(){
 
 // Contact Us form Submission
 
-window.addEventListener("load", start, false);
+// window.addEventListener("load", start, false);
 
-function start(){
-  var submitButton = document.getElementById("submitButton");
-  if(submitButton!=null){
-    submitButton.addEventListener("click", submit);
-  }
-}
+// function start(){
+//   var submitButton = document.getElementById("submitButton");
+//   if(submitButton!=null){
+//     submitButton.addEventListener("click", submit);
+//   }
+// }
 
-function submit(){
-    if(confirm("Thank you for contacting us! We will get back to you as soon as possible")){
-      location.href="../html/Profile.html";
-    }
+// function submit(){
+//     if(confirm("Thank you for contacting us! We will get back to you as soon as possible")){
+//       location.href="../html/Profile.html";
+//     }
 
 }
