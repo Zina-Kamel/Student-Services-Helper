@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "638cf5b6baddd46530b807d8"
+  },
+  "Email_Address": "zina.kamel@lau.edu",
+  "Registered_Events": [
+    "6397250c9e71dce2a10e153d",
+    "6397250c9e71dce2a10e153e",
+    "6397250c9e71dce2a10e1537"
+  ],
+  "Registered_Sessions": [
+    "638d05416fcace22690b5e38",
+    "638d05416fcace22690b5e3b"
+  ],
+  "Booked_Classrooms": [
+    "63964ce9248a703a8001b192",
+    "63964ce9248a703a8001b193",
+    "63964ce9248a703a8001b194",
+    "63964ce9248a703a8001b195"
+  ]
+}]

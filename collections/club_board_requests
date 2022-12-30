@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6384bf6fa3972c5bbb07e149"
+  },
+  "Student_ID": 1,
+  "Club_Name": null,
+  "Position": null,
+  "Description": ""
+},{
+  "_id": {
+    "$oid": "6384bf870f3b563d33051904"
+  },
+  "Student_ID": 1,
+  "Club_Name": null,
+  "Position": null,
+  "Description": ""
+},{
+  "_id": {
+    "$oid": "6384c521a3972c5bbb07e14a"
+  },
+  "Student_ID": 1,
+  "Club_Name": null,
+  "Position": null,
+  "Description": ""
+},{
+  "_id": {
+    "$oid": "6384c570908a6f543b0f95f4"
+  },
+  "Student_ID": 1,
+  "Club_Name": null,
+  "Position": null,
+  "Description": ""
+}]

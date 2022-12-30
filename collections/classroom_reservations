@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "63964ce9248a703a8001b192"
+  },
+  "Reservation type ": "study",
+  "Study_Mode": "Individual",
+  "Date": {
+    "date": "2022-09-23 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Building": "Sage Hall",
+  "Classroom_Number": "201",
+  "End_Time": "12:10",
+  "Start_Time": "10:10"
+},{
+  "_id": {
+    "$oid": "63964ce9248a703a8001b193"
+  },
+  "Reservation type ": "other",
+  "Study_Mode": "Shared",
+  "Date": {
+    "date": "2022-12-22 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Building": "Safadi-Fine Arts",
+  "Classroom_Number": "608",
+  "End_Time": "18:14",
+  "Start_Time": "17:14"
+},{
+  "_id": {
+    "$oid": "63964ce9248a703a8001b194"
+  },
+  "Reservation type ": "study",
+  "Study_Mode": "Individual",
+  "Date": {
+    "date": "2022-12-23 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Building": "Safadi-Fine Arts",
+  "Classroom_Number": "608",
+  "End_Time": "12:10",
+  "Start_Time": "10:10"
+},{
+  "_id": {
+    "$oid": "63964ce9248a703a8001b195"
+  },
+  "Reservation type ": "study",
+  "Study_Mode": "Individual",
+  "Date": {
+    "date": "2023-01-02 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Building": "Sage Hall",
+  "Classroom_Number": "201",
+  "End_Time": "11:10",
+  "Start_Time": "10:10"
+}]

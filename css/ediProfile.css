@@ -1,0 +1,112 @@
+.text{
+    color: #fff;
+}
+.editText{
+    margin-right: -20px;
+    font-size: 40px;
+    color: #236477;
+}
+.textBox{
+    padding: 0.8em 3em;
+  font-size: 12px;
+  text-transform:none;
+  letter-spacing: 1px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+   margin-left: 50px;
+   width: 250px;
+   margin-top: 20px;
+   height: 10px;
+ text-indent: -1px;
+}
+
+.textBox:active{
+    transform: translateY(-1px);
+}
+.textBox:hover{
+    background-color: #173042;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.button{
+    padding: 0.8em 3em;
+  font-size: 12px;
+  text-transform:none;
+  letter-spacing: 1px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+   margin-left: 460px;
+   width: 60em;
+   margin-top: 200px;
+ text-indent: -10px;
+ line-break: -12px; 
+   
+}
+
+.button:active{
+    transform: translateY(-1px);
+}
+.button:hover{
+    background-color: #173042;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px);
+}
+.textBox2{
+    padding: 0.8em 3em;
+  font-size: 12px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+   margin-left: 10px;
+   width: 250px;
+   margin-top: 10px;
+   height: 10px;
+ text-indent: -1px;
+   
+}
+
+.textBox2:active{
+    transform: translateY(-1px);
+}
+.textBox2:hover{
+    background-color: #173042;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px);
+}
+div.rectangle1 {
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 1px 20px;
+    height:330px;
+    background-color: #173042;
+    margin-top: 1.5em;
+}
+
+div.rectangle1 h1{
+    text-align: center;
+}
+
+div.rectangle1 p{
+    font-size: larger;
+}

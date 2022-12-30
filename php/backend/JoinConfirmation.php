@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <met charset="uft-8"></met>
+    <link rel="stylesheet" href="../../css/sessionStyles.css">
+    <link rel="icon" type="image/x-icon" href="../logos/favicon.ico">
+    <title>Confirmation Page</title>
+</head>
+<header class="body-style">
+  <center>
+      <h1 style="color: #173042;">You successfully joined the requested session</h1>
+  </center>
+</header>
+
+<!--Summary of booked study session-->
+<center>
+<body style="background-color: #173042;">
+    <table border="1" width ="10%" class="table">
+        <tr>
+        <td>Topic: </td>
+        <td>Study Session</td>
+    </tr>
+    <tr>
+          <td class="TableHeadCol">Building: </td>
+          <td> Nicol Hall</td>
+        </tr>
+        <tr>
+          <td class="TableHeadCol">Floor </td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td class="TableHeadCol">Room </td>
+          <td>407</td>
+        </tr>
+        <tr>
+          <td class="TableHeadCol">Duration: </td>
+          <td> 2 hours </td>
+        </tr>
+      </table>
+
+      <div class="text" style="color: #cfdfda;">
+    <strong>You will receive a Confirmation email with a reminder in few minutes.</strong>
+  </div>
+  <a href="Booking.html"><input type="submit" value="Back to home page" ></a>
+</center>
+</body>
+
+</html>

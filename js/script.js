@@ -18,19 +18,19 @@ function animate() {
 
 window.addEventListener("scroll", animate);
 
-let stu_count=setInterval(student_increment_count);
-let maximum=0;
-function student_increment_count(){
-    var counts_students= document.getElementById("student-counter");
-    if(counts_students!=null){
-      counts_students.innerHTML=++maximum;
-    }
+// let stu_count=setInterval(student_increment_count);
+// let maximum=0;
+// function student_increment_count(){
+//     var counts_students= document.getElementById("student-counter");
+//     if(counts_students!=null){
+//       counts_students.innerHTML=++maximum;
+//     }
     
-    if(maximum===1200)
-    {
-        clearInterval(stu_count);
-    }
-}
+//     if(maximum===39)
+//     {
+//         clearInterval(stu_count);
+//     }
+// }
 
 let classrooms_count=setInterval(class_increment_count);
 let maximum_class=0;
@@ -40,24 +40,24 @@ function class_increment_count(){
       counts_class.innerHTML=++maximum_class;
     }
     
-    if(maximum_class===1235)
+    if(maximum_class===15)
     {
         clearInterval(classrooms_count);
     }
 }
 
-let class_shared_count=setInterval(shared_increment_count);
-let maximum_class_shared=0;
-function shared_increment_count(){
-    var counts_shared_class= document.getElementById("class-shared-counter");
-    if(counts_shared_class!=null){
-      counts_shared_class.innerHTML=++maximum_class_shared;
-    }
-    if(maximum_class_shared===1500)
-    {
-        clearInterval(class_shared_count);
-    }
-}
+// let class_shared_count=setInterval(shared_increment_count);
+// let maximum_class_shared=0;
+// function shared_increment_count(){
+//     var counts_shared_class= document.getElementById("class-shared-counter");
+//     if(counts_shared_class!=null){
+//       counts_shared_class.innerHTML=++maximum_class_shared;
+//     }
+//     if(maximum_class_shared===15)
+//     {
+//         clearInterval(class_shared_count);
+//     }
+// }
 
 // Contact Us form Submission
 

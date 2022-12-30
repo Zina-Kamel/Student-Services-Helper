@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Address Book</title>
+   <link rel = "stylesheet" type = "text/css" href = "../../../css/adminFunctionStyles.css">
+   
+   <script src = "AddressBook.js"></script>
+</head>
+<body style = "background-color: #cfdfda;">
+   <div>
+      <input id = "addressBookButton" type = "button" style = "background-color: green;"
+         value = "Admins ">
+      <input id = "addEntryButton" type = "button"  style = "background-color: green;"
+         value = "Add an Entry">
+   </div>
+   <div id = "addressBook">
+      <p><b>Search By Last Name:</b> <input id = "searchInput"></p>
+      <div id = "Names"></div>
+   </div>
+   <div id = "addEntry" style = "display : none">
+      <p><label>First Name:</label> <input id = "first"></p>
+      <p><label>Last Name:</label> <input id = "last"></p>
+
+      <p><label>Email Address:</label> <input id = "email">
+         <span id = "validateEmail" class = "validator"></span></p>
+         
+      <p><label>Password:</label> <input id = "password" type = "password">
+            <span id = "validatePassword" class = "validator"></span></p>
+      <p><input id = "submitButton" type = "button" value = "Submit"></p>
+      <div id = "success" class = "validator"></div>
+   </div>
+</body>
+</html>
+

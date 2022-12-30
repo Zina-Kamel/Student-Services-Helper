@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e1537"
+  },
+  "Date": {
+    "date": "2022-09-23 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "eventname1",
+  "Event_Description": "eventdesc1",
+  "Club_Name": "clubname1",
+  "Poster": "geekexpressrecruitmentpresentation",
+  "Day": "23",
+  "Month": "09"
+},{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e1538"
+  },
+  "Date": {
+    "date": "2022-09-14 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "eventname2",
+  "Event_Description": "eventdesc2",
+  "Club_Name": "clubname2",
+  "Poster": "10thannualcreativewritingcompetition",
+  "Day": "14",
+  "Month": "09"
+},{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e1539"
+  },
+  "Date": {
+    "date": "2022-08-01 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "eventname3",
+  "Event_Description": "eventdesc3",
+  "Club_Name": "clubname3",
+  "Poster": "jobsearchstrategies",
+  "Day": "01",
+  "Month": "08"
+},{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e153a"
+  },
+  "Date": {
+    "date": "2022-09-02 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "eventname4",
+  "Event_Description": "eventdesc4",
+  "Club_Name": "clubname4",
+  "Poster": "welcometocampus",
+  "Day": "02",
+  "Month": "09"
+},{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e153b"
+  },
+  "Date": {
+    "date": "2022-12-28 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "Project Management",
+  "Event_Description": "Learn how to manage variety of project types",
+  "Club_Name": "ITM Club",
+  "Poster": "projectmanagementwwebinar",
+  "Day": "28",
+  "Month": "12"
+},{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e153c"
+  },
+  "Date": {
+    "date": "2022-12-24 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "Christmas Evening",
+  "Event_Description": "A christmas to remember",
+  "Club_Name": "Activities Club",
+  "Poster": "christmas",
+  "Day": "24",
+  "Month": "12"
+},{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e153d"
+  },
+  "Date": {
+    "date": "2023-01-04 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "Stock Prediction",
+  "Event_Description": "Predicting Stocks in Python",
+  "Club_Name": "Computer Science Club",
+  "Poster": "stockprediction",
+  "Day": "04",
+  "Month": "01"
+},{
+  "_id": {
+    "$oid": "6397250c9e71dce2a10e153e"
+  },
+  "Date": {
+    "date": "2023-01-14 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Participants_Emails": [],
+  "Event_Name": "Media Literacy",
+  "Event_Description": "Become more skilled in media",
+  "Club_Name": "Activities Club",
+  "Poster": "medialiteracy",
+  "Day": "14",
+  "Month": "01"
+}]

@@ -71,10 +71,15 @@
                 $lastuser = $users_collection->find($filter, $options, $limit);
 
                 $login_collection->insertOne( [ 'Email_Address' => $email, 'Password' => $password ] );
-                $users_collection->insertOne( [ 'Student_ID'=> iterator_to_array($lastuser)[0]['Student_ID']+1,'First_Name' => $firstname, 'Last_Name' => $lastname, 'Email_Address'=>$email, 'Date_Registered'=>new \MongoDB\BSON\UTCDateTime(strtotime('yesterday') * 1000), 'Is_Club_Member'=>false ] );
+                $users_collection->insertOne( [ 'Student_ID'=> iterator_to_array($lastuser)[0]['Student_ID']+1,'First_Name' => $firstname, 'Middle_Name' => "", 'Last_Name' => $lastname, 'Email_Address'=>$email, 'Date_Registered'=>new \MongoDB\BSON\UTCDateTime(strtotime('yesterday') * 1000), 'Is_Club_Member'=>false ] );
                 session_start();
+                $users_events_collection = $client->student_services_db->users_events;
+                $users_events_collection->insertOne( [ 'Email_Address' => $email, 'Registered_Events' => [] ] );
+                $users_events_collection->insertOne( [ 'Email_Address' => $email, 'Registered_Sessions' => [] ] );
+                $users_events_collection->insertOne( [ 'Email_Address' => $email, 'Booked_Classrooms' => [] ] );
+
                 $_SESSION["useremail"] =  $email;
-                echo "<script> location.href='Profile.php'; </script>";
+                echo "<script> location.href='DisplayProfile.php'; </script>";
                 die(); 
             }
         }
@@ -82,8 +87,8 @@
         print("<div style='position: relative; top: 4%; color: #173042;'><strong>Welcome to Student Services Helper! Please signup to continue using the services</strong></div>");
 
         print("<form class='logIn' style='position: relative; top: 8%; height:350px;' action='signup.php' method='POST'>");
-        print("<a href='../../html/index.html'><img src='../assets/back.png' class='BackButton'></a>");
-        print("<img src='../../assets/Services/signup2.png' class='acc'>");
+        print("<a href='../../html/index.html'><img src='../../assets/back.png' class='BackButton' style='position:relative; right: 25%;'></a>");
+        print("<img src='../../assets/Services/signup2.png' class='acc' style='position:relative; right: 10%;'>");
 
         if ( $iserror )                                              
         {                  
@@ -121,7 +126,7 @@
         print("<button class='button' style='position:relative;top:10%;' name='submit'>Signup</button>");
 
         print("<p class='text1' style='position:relative;top:10%;'>Need help?");
-        print("<a class='text' style='position:relative;top:10%;' href='../../html/ContactUs.html'>Ask us!</a> </p>");
+        print("<a class='text' style='position:relative;top:10%;' href='ContactUs.php'>Ask us!</a> </p>");
 
         print("<p class='text1' style='position:relative;top:10%;'>Already have an account?");
         print("<a class='text' style='position:relative;top:10%;' href='login.php'>Sign in instead</a> </p>");

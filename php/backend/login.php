@@ -11,8 +11,8 @@
    <body class="body-style">
     <?php
 
-        // error_reporting(E_ALL);
-        // ini_set('display_errors', 1); 
+        error_reporting(E_ALL);
+        ini_set('display_errors', 1); 
 
         require_once __DIR__ . '/vendor/autoload.php';
 
@@ -69,7 +69,7 @@
             {
                 session_start();
                 $_SESSION["useremail"] =  $email;
-                echo "<script> location.href='Profile.php'; </script>";
+                echo "<script> location.href='DisplayProfile.php'; </script>";
                 die(); 
             }
         }
@@ -77,8 +77,8 @@
         print("<div style='position: relative; top: 4%; color: #173042;'><strong>Welcome to Student Services Helper! Please login to continue using the services</strong></div>");
 
         print("<form class='logIn' style='position: relative; top: 8%; height:300px;' action='login.php' method='POST'>");
-        print("<a href='../../html/index.html'><img src='../assets/back.png' class='BackButton'></a>");
-        print("<img src='../../assets/Services/account.png' class='acc'>");
+        print("<a href='../../html/index.html'><img src='../../assets/back.png' class='BackButton' style='position:relative; right: 28%;'></a>");
+        print("<img src='../../assets/Services/account.png' style='position:relative; right: 10%;' class='acc'>");
 
         if ( $iserror )                                              
         {                  

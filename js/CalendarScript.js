@@ -1,9 +1,8 @@
-
-
 const date = new Date();
 
 //visualizing the calendar
 const renderCal = () => {
+
    date.setDate(1);
 
   const monthDays = document.querySelector(".days");
@@ -49,6 +48,9 @@ const renderCal = () => {
 
   //dsiplays current date
   document.querySelector(".date p").innerHTML = new Date().toDateString();
+
+  console.log(new Date().toDateString());
+  console.log(month[date.getMonth()]);
 
   //press days to go to events
   

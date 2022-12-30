@@ -13,20 +13,16 @@
     
     <body style="height: 100vh;">
 
-        <!--Navbar-->
-
         <div class="navbar" id="navbarid">
             <a href="index.html">Home</a>
-            <a href="EventsGridDisplay.html" target=”_blank">Events</a>
-            <a class="active" href="Booking.html">Booking</a>
-            <a href="ClubBoardMember.html">Club Members</a>
+            <a  href="../php/backend/EventsDisplay.php" target=”_blank">Events</a>
+            <a class="active" href="html/Booking.html">Booking</a>
+            <a href="../php/backend/validate_clubmember.php">Club Members</a>
 
-            <div class="right-nav">
+            <div class="right-nav"> 
                 <a href="https://elearn.lau.edu.lb/ultra" target=”_blank”>Blackboard</a>
                 <a href="https://myportal.lau.edu.lb/Pages/studentPortal.aspx" target=”_blank”>Portal</a>
-                
-                <a class="login-icon"  href="LoginPage.html"><img src="../assets/login-icon.png"></a>
-
+                <a href="../php/backend/validate_signin.php" ><img src="../assets/login-icon.png" class="dropbtn"></a>
             </div>
             
         </div>
@@ -39,13 +35,13 @@
 
         <p><br>
             <div class="organize" style="background: url(../assets/Services/Organize.jpg);background-size: cover; background-repeat: no-repeat;">
-              <a href="../html/Organize.html"><button class="button">Booking a classroom</button></a>
+              <a href="../html/Organize.html"><button style="position: relative; right: 72%;" class="button">Booking a classroom</button></a>
         
         </p>
         </div>
         
         <div class="join" style="background: url(../assets/Services/join.jpg);background-size: cover; background-repeat: no-repeat; ">
-              <a href="../html/Join.html"><button class="button">Join a Session</button></a>
+              <a href="../php/backend/SessionsDisplay.php"><button class="button" style="position: relative; right: 72%;">Join a Session</button></a>
               </p>
         </div>
 

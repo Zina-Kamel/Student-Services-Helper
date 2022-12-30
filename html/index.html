@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
         <meta charset="utf-8">
         <title>Student Services Helper</title>
@@ -11,16 +11,18 @@
     <body>
         <div class="navbar" id="navbarid">
             <a class="active" href="index.html">Home</a>
-            <a href="EventsGridDisplay.html" target=”_blank">Events</a>
+            <a href="../php/backend/EventsDisplay.php" target=”_blank">Events</a>
             <a href="Booking.html">Booking</a>
-            <a href="ClubBoardMember.html">Club Members</a>
+            <a href="../php/backend/validate_clubmember.php">Club Members</a>
 
-            <div class="right-nav">
+            <div class="right-nav"> 
                 <a href="https://elearn.lau.edu.lb/ultra" target=”_blank”>Blackboard</a>
                 <a href="https://myportal.lau.edu.lb/Pages/studentPortal.aspx" target=”_blank”>Portal</a>
-                <a class="login-icon"  href="../php/backend/validate_signin.php"><img src="../assets/login-icon.png"></a>
+                <a href="../php/backend/validate_signin.php" ><img src="../assets/login-icon.png" class="dropbtn"></a>
             </div>
+            
         </div>
+
 
         <section class="intro-tite">
             <img class="intro-img" src="../assets/landingpagepic.png" alt="students landing page picture">
@@ -47,7 +49,9 @@
             <img class="event_room" src="../assets/studying/book_room.png" width="500" height="500">
             <div class="event_room_desc">
                 <h2>Interested in reserving a classroom for a group or individual study?</h2>
+                <a href="Booking.html">
                 <input type="button" onclick="" value="Reserve your spot here!" />
+                </a>
             </div>
         </section>
 
@@ -70,6 +74,26 @@
                     <input type="button" onclick="" style="position: relative; right: 0%;" value="Post your event here!" />
                 </a>
             </div>
+        </section>
+
+        <section class="animate-up">
+            <h1 class="center">Get to know your campus!</h1>
+            <div>
+                <h2 style="font-size:16px; position:relative; left:30%">You can now click on the buidling name below to view its facilities</h2>
+            </div>
+            <div style="    position: relative;
+            text-align: center;">
+            <input type = "radio" name ="Books" value = "AKSOB" 
+            id = "AKSOB"> AKSOB 
+            <input type = "radio" name = "Books" value = "Nicol_Hall" 
+                id = "Nicol_Hall"> Nicol Hall
+            <input type = "radio" name = "Books" value = "Sage_Hall" 
+                id = "Sage_Hall"> Sage Hall 
+            <input type = "radio" checked name = "Books" value = "none"
+                id = "none"> None 
+            <div id = "facilities"></div>
+            <div style="border: 1px solid black; padding: 10px; width: 300px; left: 38%;position: relative;display: none;" id = "contentArea">click on a facility to get its description</div>
+        </div>
         </section>
 
         <section class="animate-up">
@@ -120,6 +144,92 @@
             }
             }
         </script>
+
+<script>
+
+function getImages( url )
+   {
+      try
+      {
+         asyncRequest = new XMLHttpRequest(); 
+         asyncRequest.addEventListener(
+            "readystatechange", processResponse, false); 
+         url = "http://127.0.0.1/project/html/" + url; 
+         asyncRequest.open( "GET", url); 
+         asyncRequest.send(); 
+      } 
+      catch ( exception )
+      {
+         alert( "Request Failed" );
+      } 
+}
+
+function processResponse()
+   {
+      if ( asyncRequest.readyState == 4 && asyncRequest.status == 200 && 
+         asyncRequest.responseXML )
+      {
+         clearImages(); 
+
+         var facilities = asyncRequest.responseXML.getElementsByTagName(
+            "facility" )
+
+        
+         var output = document.getElementById( "facilities" );
+         
+         var imagesUL = document.createElement( "ul" );
+         
+         for ( var i = 0; i < facilities.length; ++i )
+         {
+            var facility = facilities.item( i ); 
+
+            console.log(asyncRequest.responseXML);
+         
+            var image = facility.getElementsByTagName( "image" ).
+               item( 0 ).firstChild.nodeValue;
+
+            var imageLI = document.createElement( "li" );
+            imageLI.style.listStyle = "none";
+            imageLI.style.display = "inline";
+            imageLI.style.padding = "10px";
+            var imageTag = document.createElement( "img" );
+            
+            var baseUrl = asyncRequest.responseXML.getElementsByTagName( 
+            "baseurl" ).item( 0 ).firstChild.nodeValue;
+
+            console.log(image);
+            
+            imageTag.setAttribute( "src", baseUrl + image ); 
+            imageLI.appendChild( imageTag ); 
+            imagesUL.appendChild( imageLI ); 
+         } 
+
+         output.appendChild( imagesUL ); 
+      }  
+   } 
+
+function clearImages()
+{
+    document.getElementById( "facilities" ).innerHTML = ""; 
+    document.getElementById( "contentArea" ).innerHTML = "click on a facility to get its description";
+}
+
+var asyncRequest;
+
+function registerListeners()
+   {
+      document.getElementById( "AKSOB" ).addEventListener(
+         "click", function() { getImages( "bb.xml" ); }, false ); 
+      document.getElementById( "Nicol_Hall" ).addEventListener(
+         "click", function() { getImages( "Nicol_Hall.xml" ); }, false ); 
+      document.getElementById( "Sage_Hall" ).addEventListener(
+         "click", function() { getImages( "Sage_Hall.xml" ); }, false ); 
+      document.getElementById( "none" ).addEventListener(
+         "click", clearImages, false ); 
+}
+
+window.addEventListener( "load", registerListeners, false );
+</script>
         
     </body>
 

@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "63874e0c63318ae4b80c1812"
+  },
+  "Email_Address": "rhea.kruskal@lau.edu",
+  "Password": "Rxyez123#"
+},{
+  "_id": {
+    "$oid": "63874e0c63318ae4b80c1813"
+  },
+  "Email_Address": "prim.simple01@lau.edu",
+  "Password": "Verygoodpass1$"
+},{
+  "_id": {
+    "$oid": "63874e0c63318ae4b80c1814"
+  },
+  "Email_Address": "mageda.algorithm@lau.edu",
+  "Password": "Tracecode5@"
+},{
+  "_id": {
+    "$oid": "63874e0c63318ae4b80c1815"
+  },
+  "Email_Address": "roula.ghaleb@lau.edu",
+  "Password": "Password999!"
+}]

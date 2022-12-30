@@ -11,7 +11,7 @@ $login_collection = $client->student_services_db->login;
 
 session_start();
 if (isset($_SESSION["useremail"])){
-    echo "<script> location.href='Profile.php'; </script>";
+    echo "<script> location.href='DisplayProfile.php'; </script>";
 }else{
     echo "<script> location.href='login.php'; </script>";
 }

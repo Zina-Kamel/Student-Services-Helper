@@ -1,0 +1,1035 @@
+[{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace32"
+  },
+  "Building_Code": 101,
+  "Building_Name": "SageHall",
+  "Room": 201,
+  "Room_Category": "Classroom",
+  "Booking_ID": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace33"
+  },
+  "Building_Code": 101,
+  "Building_Name": "SageHall",
+  "Room": 202,
+  "Room_Category": "Classroom",
+  "Booking_ID": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace34"
+  },
+  "Building_Code": 101,
+  "Building_Name": "SageHall",
+  "Room": 203,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace35"
+  },
+  "Building_Code": 101,
+  "Building_Name": "SageHall",
+  "Room": 204,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace36"
+  },
+  "Building_Code": 101,
+  "Building_Name": "SageHall",
+  "Room": 205,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace37"
+  },
+  "Building_Code": 101,
+  "Building_Name": "SageHall",
+  "Room": 206,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace38"
+  },
+  "Building_Code": 102,
+  "Building_Name": "Wadad",
+  "Room": 201,
+  "Room_Category": "Classroom",
+  "Booking_ID": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace39"
+  },
+  "Building_Code": 102,
+  "Building_Name": "Wadad",
+  "Room": 204,
+  "Room_Category": "Classroom",
+  "Booking_ID": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace3a"
+  },
+  "Building_Code": 102,
+  "Building_Name": "Wadad",
+  "Room": 205,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace3b"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 120,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace3c"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 215,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace3d"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 216,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace3e"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 217,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace3f"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 218,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace40"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 304,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace41"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 305,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace42"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 306,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace43"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 307,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace44"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 312,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace45"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 313,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace46"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 318,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace47"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 403,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace48"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 404,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace49"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 408,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace4a"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 409,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace4b"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 417,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace4c"
+  },
+  "Building_Code": 103,
+  "Building_Name": "NicolHall",
+  "Room": 418,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace4d"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 106,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace4e"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 107,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace4f"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 109,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace50"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 605,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace51"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 606,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace52"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 607,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace53"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 608,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace54"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 106,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace55"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 107,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace56"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 109,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace57"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 605,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace58"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 606,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace59"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 607,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace5a"
+  },
+  "Building_Code": 104,
+  "Building_Name": "Safadi-Fine-Arts",
+  "Room": 608,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace5b"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 903,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace5c"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 904,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace5d"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 905,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace5e"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1003,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace5f"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1004,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace60"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1005,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace61"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1006,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace62"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1007,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace63"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1008,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace64"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1009,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace65"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1110,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace66"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1207,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace67"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1208,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace68"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1209,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace69"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1210,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace6a"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1211,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace6b"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1307,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace6c"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1308,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace6d"
+  },
+  "Building_Code": 110,
+  "Building_Name": "AKSOB",
+  "Room": 1309,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace6e"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 403,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace6f"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 404,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace70"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 801,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace71"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 802,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace72"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 901,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace73"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 902,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace74"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 1107,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace75"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 1104,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace76"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 1002,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace77"
+  },
+  "Building_Code": 113,
+  "Building_Name": "Gezairi",
+  "Room": 1101,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace78"
+  },
+  "Building_Code": 155,
+  "Building_Name": "Atiyah",
+  "Room": 302,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace79"
+  },
+  "Building_Code": 155,
+  "Building_Name": "Atiyah",
+  "Room": 303,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace7a"
+  },
+  "Building_Code": 155,
+  "Building_Name": "Atiyah",
+  "Room": 304,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace7b"
+  },
+  "Building_Code": 155,
+  "Building_Name": "Atiyah",
+  "Room": 305,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+},{
+  "_id": {
+    "$oid": "639635cde7c7aa0e7a0ace7c"
+  },
+  "Building_Code": 155,
+  "Building_Name": "Atiyah",
+  "Room": 306,
+  "Room_Category": "Classroom",
+  "Booking_IDs": [
+    ""
+  ],
+  "AC_Status": true,
+  "Availability": true,
+  "Elec_Status": true
+}]

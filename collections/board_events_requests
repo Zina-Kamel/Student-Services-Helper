@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "63979628f2609baa1c0e3558"
+  },
+  "Student_ID": 1,
+  "Event_Name": "Mepi roles",
+  "isclassroom": true,
+  "Description": "teach students",
+  "Date": {
+    "date": "2023-11-09 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Time": "00:16",
+  "Poster": "changingroles",
+  "Club": "Love Birds"
+},{
+  "_id": {
+    "$oid": "63979628f2609baa1c0e3559"
+  },
+  "Student_ID": 4,
+  "Event_Name": "Mathematics quiz",
+  "isclassroom": true,
+  "Description": "richness in math",
+  "Date": {
+    "date": "2023-11-09 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Time": "00:16",
+  "Poster": "changingroles",
+  "Club": "Math and CS"
+},{
+  "_id": {
+    "$oid": "63979628f2609baa1c0e355a"
+  },
+  "Student_ID": 2,
+  "Event_Name": "Studying",
+  "isclassroom": false,
+  "Description": "teach students important things",
+  "Date": {
+    "date": "2023-12-30 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Time": "5:15",
+  "Poster": "internationalprograms",
+  "Club": "Nerds"
+},{
+  "_id": {
+    "$oid": "63979628f2609baa1c0e355b"
+  },
+  "Student_ID": 5,
+  "Event_Name": "Programs",
+  "isclassroom": false,
+  "Description": "international things",
+  "Date": {
+    "date": "2023-05-05 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Time": "5:15",
+  "Poster": "internationalprograms",
+  "Club": "Nerds"
+}]

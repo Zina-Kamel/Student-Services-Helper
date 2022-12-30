@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+  <facilities>
+      <baseurl>http://127.0.0.1/project/html/</baseurl>
+  	  <facility>
+         <image>sage1.jpg</image>
+         <title>Adnan Kassar School of Business</title>
+         <description>AKSOB Entrance</description>
+      </facility>
+
+    <facility>
+         <image>sage2.jpg</image>
+         <title>Adnan Kassar School of Business</title>
+         <description>AKSOB Auditorium</description>
+      </facility>
+
+     <facility>
+         <image>sage3.jpg</image>
+         <title>Adnan Kassar School of Business</title>
+         <description>AKSOB Classroom</description>
+      </facility>
+
+  </facilities>

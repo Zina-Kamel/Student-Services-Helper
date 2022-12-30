@@ -1,0 +1,7 @@
+[{
+  "_id": {
+    "$oid": "6378c6240fc5cceaf908601d"
+  },
+  "Email_Address": "zina.kamel@lau.edu",
+  "Password": "mypassword"
+}]

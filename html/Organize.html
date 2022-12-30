@@ -15,24 +15,29 @@
 </header>
 
 <!--Booking a classroom form-->
-<!--  style="background: url(../assets/Services/joinEdit.jpg);background-size: cover; background-repeat: no-repeat;" -->
+
+<!-- style="background: url(../assets/Services/joinEdit.jpg);background-size: cover; background-repeat: no-repeat;" -->
 <form id="organize" method="post" action="ConfirmationForm.html">
-    <center  class="organizeInformation">
-        <body>  
-            <form class="organizeInformation" >  
-    
-            
-            <p>What are you planning to do?
-              
-                <input type="radio" name="type" />Study <input type="radio" name="type" />Other<br>
-                <br>
+    <center class="organizeInformation">
+
+        <body>
+            <form class="organizeInformation">
+
+
+                <p>What are you planning to do?
+                    
+                    <input type="radio" name="type" value="study" <?php if (isset($type) && $type=="study") echo "checked";? />Study 
+                    <input type="radio" name="type" value="other" <?php if (isset($type) && $type=="other") echo "checked";? />Other<br>
+                    <br>
+
 
                 <p>Study mode preference:
-                    <input type="radio" name="mode" id="mode">Individual <input type="radio" name="mode" id="mode" />Shared
+                    <input type="radio" name="mode" id="mode">Individual <input type="radio" name="mode"
+                        id="mode" />Shared
                 </p>
 
                 <p>Please enter the date
-                
+
                     <input type="date" id="date" />
                     <span id="date-time"></span>
                 </p>
@@ -40,40 +45,146 @@
                 <p>Please specify the time
                     from: <input type="time" id="timePicker" name="time" /> till: <input type="time" id="timePicker"
                         name="time" /><br>
-                    <h5 class="note">Note: You are allowed to stay for 2 hours per session!</h5>
+                <h5 class="note">Note: You are allowed to stay for 2 hours per session!</h5>
                 </p>
-    
-            <label >Choose the Building</label>
-            <select name="LAU Buildings" class="options">
-                <option selected> </option>
-                <option>Safadi Hall</option>
-                <option>Nicol Hall</option>
-                <option>Sage Hall</option>
-                <option>AKSOB</option>
-                <option>Gezairi</option>
-            </select>
-            </p>
 
-            <p>
-                <label>Available Rooms</label>
-                <select name="Rooms Available" class="options">
+
+
+                <label>Choose the Building</label>
+                <select name="LAU Buildings" class="options" id="buildings">
+                    <option value="000" selected> </option>
+                    <option value="101">Sage Hall</option>
+                    <option value="102">WKSC-Wadad Said Khoury Build.</option>
+                    <option value="103">Nicol Hall</option>
+                    <option value="104">Safadi Fine Arts</option>
+                    <option value="110">AKSOB</option>
+                    <option value="113">Gezairi</option>
+                    <option value="155">Atiyah Building</option>
+                    </select>
+                </p>
+
+                <!-- <em name="Rooms Available" class="options" id="none" ></em> -->
+                <label>Available Rooms</label> 
+                 <select style="display:none" name="Rooms Available" class="options" id="SageHall">
+                   
                     <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
+                    <option>201</option>
+                    <option>202</option>
+                    <option>203</option>
+                    <option>204</option>
+                    <option>205</option>
+                    <option>206</option>
                 </select>
-            <h5 class="note">Note: You will not be able to modify the mode of study later</h5>
-            <center>
-                <p>
-                    
-                    <a href="../html/ConfirmationForm.html"><button class="button">Submit</button></a>
-        
-                    <input type="reset" value="Reset" class="button"  />
-                </p>
+                <select style="display:none" name="Rooms Available" class="options" id="wksc" >
+                    <option></option>
+                    <option>201</option>
+                    <option>204</option>
+                    <option>205</option>
+                  
+                </select>
 
-            </center>
+                <select style="display:none" name="Rooms Available" class="options" id="nicol" >
+                    <option></option>
+                    <option>120</option>
+                    <option>215</option>
+                    <option>216</option>
+                    <option>217</option>
+                    <option>218</option>
+                    <option>304</option>
+                    <option>305</option>
+                    <option>306</option>
+                    <option>307</option>
+                    <option>312</option>
+                    <option>313</option>
+                    <option>318</option>
+                    <option>403</option>
+                    <option>404</option>
+                    <option>408</option>
+                    <option>409</option>
+                    <option>417</option>
+                    <option>418</option>
+                </select>
+
+                <select style="display:none" name="Rooms Available" class="options" id="safadi" >
+                    
+                    <option></option>
+                    <option>106</option>
+                    <option>107</option>
+                    <option>109</option>
+                    <option>605</option>
+                    <option>606</option>
+                    <option>607</option>
+                    <option>608</option>
+                </select>
+
+                <select  style="display:none" name="Rooms Available" class="options" id="aksob" >
+                    <option></option>
+                    <option>0903</option>
+                    <option>0904</option>
+                    <option>0905</option>
+                    <option>1003</option>
+                    <option>1004</option>
+                    <option>1005</option>
+                    <option>1006</option>
+                    <option>1007</option>
+                    <option>1107</option>
+                    <option>1108</option>
+                    <option>1109</option>
+                    <option>1110</option>
+                    <option>1207</option>
+                    <option>1208</option>
+                    <option>1209</option>
+                    <option>1210</option>
+                    <option>1211</option>
+                    <option>1307</option>
+                    <option>1308</option>
+                    <option>1309</option>
+                </select>
+
+                <select style="display:none" name="Rooms Available" class="options" id="gezairi" >
+                    <option></option>
+                    <option>1001</option>
+                    <option>1002</option>
+                    <option>1101</option>
+                    <option>1104</option>
+                    <option>1107</option>
+                    <option>403</option>
+                    <option>404</option>
+                    <option>801</option>
+                    <option>802</option>
+                    <option>901</option>
+                    <option>902</option>
+                </select>
+
+                <select style="display:none" name="Rooms Available" class="options" id="atiyah" >
+                   
+                    <option></option>
+                    <option>0302</option>
+                    <option>0303</option>
+                    <option>0304</option>
+                    <option>0305</option>
+                    <option>0306</option>
+                    </select>
+
+
+                <h5 class="note">Note: You will not be able to modify the mode of study later</h5>
+
+        
+                
+                <script src="../js/index.js"></script>
+
+                <center>
+                    <p>
+                        <a href="../html/ConfirmationForm.html"><button class="button">Submit</button></a>
+                        <input type="reset" value="Reset" class="button" />
+                    </p>
+
+                </center>
             </form>
-        </form>
+</form>
+
+
+
 </body>
 
 </html>

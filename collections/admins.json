@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "63874e0963318ae4b80c180e"
+  },
+  "First_Name": "Rhea",
+  "Last_name": "Kruskal",
+  "Email_Address": "rhea.kruskal@lau.edu"
+},{
+  "_id": {
+    "$oid": "63874e0963318ae4b80c180f"
+  },
+  "First_Name": "Prim",
+  "Last_name": "Simple",
+  "Email_Address": "prim.simple01@lau.edu"
+},{
+  "_id": {
+    "$oid": "63874e0963318ae4b80c1810"
+  },
+  "First_Name": "Mageda",
+  "Last_name": "Algorithm",
+  "Email_Address": "mageda.algorithm@lau.edu"
+},{
+  "_id": {
+    "$oid": "63874e0963318ae4b80c1811"
+  },
+  "First_Name": "Roula",
+  "Last_name": "Ghaleb",
+  "Email_Address": "roula.ghaleb@lau.edu"
+}]

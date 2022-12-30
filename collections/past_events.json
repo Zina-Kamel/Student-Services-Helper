@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "639727b3b0e266d3cb031d44"
+  },
+  "Event_Name": "Nameme",
+  "Date": {
+    "date": "2022-09-23 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Club": "Beiruti",
+  "Email_Addresses": [
+    "roula.ghaleb01@lau.edu",
+    "anyone.anyone@lau.edu"
+  ]
+},{
+  "_id": {
+    "$oid": "639727b3b0e266d3cb031d45"
+  },
+  "Event_Name": "Marathon",
+  "Date": {
+    "date": "2022-01-23 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Club": "Running",
+  "Email_Addresses": [
+    "test.ghaleb01@lau.edu",
+    "anyone.anyone@lau.edu",
+    "teste.tr@lau.edu"
+  ]
+},{
+  "_id": {
+    "$oid": "639727b3b0e266d3cb031d46"
+  },
+  "Event_Name": "Nap",
+  "Date": {
+    "date": "2021-11-19 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Club": "Community Service",
+  "Email_Addresses": [
+    "test.ghaleb01@lau.edu",
+    "anyone.anyone@lau.edu",
+    "teste.tr@lau.edu"
+  ]
+}]

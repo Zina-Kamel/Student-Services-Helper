@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6378c61f0fc5cceaf9086012"
+  },
+  "Student_ID": 1,
+  "First_Name": "Zina",
+  "Last_Name": "Kamel",
+  "Middle_Name": "Abdlrahim",
+  "Email_Address": "zina.kamel@lau.edu",
+  "Date_Registered": {
+    "$date": {
+      "$numberLong": "1668726000000"
+    }
+  },
+  "Is_Club_Member": true,
+  "Club_Name": "clubname1"
+}]
